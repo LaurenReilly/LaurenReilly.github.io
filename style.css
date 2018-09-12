@@ -77,13 +77,10 @@ h2 {
 dl {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 2em;
+  font-size: 1.2em;
   display: flex;
   flex-wrap: wrap;
-}
-
-dt {
-  padding: 2em;
+  justify-content: space-around;
 }
 
 .imagemap {
