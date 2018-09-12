@@ -74,16 +74,6 @@ h2 {
     visibility: hidden;
 }
 
-dl {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 1.5em;
-}
-
 .imagemap {
     display: block;
     box-sizing: border-box;
@@ -104,11 +94,17 @@ dl {
 h3 {
     color: white;
     font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    border: 5px solid #66cc00;
+    border-radius: 20px;
 }
 
 p {
     color: white;
-    font-family: 'Raleway', sans-serif;  
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1em;
+    margin-bottom: 20px;  
 }
 
 /* progress bar from JS fiddle */
