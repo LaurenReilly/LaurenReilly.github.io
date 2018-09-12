@@ -77,9 +77,11 @@ h2 {
 dl {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1.5em;
 }
 
 .imagemap {
@@ -91,6 +93,22 @@ dl {
     border: 5px solid #66cc00;
     border-radius: 20px;
     margin: 0 auto;
+}
+
+/* descriptions */
+
+.descriptions {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;  
 }
 
 /* progress bar from JS fiddle */
