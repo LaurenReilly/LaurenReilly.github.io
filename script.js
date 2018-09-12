@@ -78,7 +78,7 @@ function prevent(e) {
     }
 }
 
-//add 10% width to progress bar when each area is clicked (bug: can be clicked multiple times atm)
+//add 10% width to progress bar when each area is clicked
 function progressBar() {
     if (width >= 100) {
         return;
@@ -99,6 +99,3 @@ cats.addEventListener("click", prevent);
 selfTaught.addEventListener("click", prevent);
 actor.addEventListener("click", prevent);
 gaming.addEventListener("click", prevent);
-
-
-//possibly add section of text about each?

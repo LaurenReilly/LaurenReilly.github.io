@@ -80,7 +80,6 @@ dl {
   font-size: 1.2em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .imagemap {
@@ -133,5 +132,3 @@ dl {
     position: relative;
     overflow: hidden;
   }
-
-  /* want to make transitions when the list items appear, from green to white */
